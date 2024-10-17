@@ -1,0 +1,10 @@
+metric = str(input("Enter K for Kilograms or L for pounds: "))
+weigh = float(input("Weight: "))
+
+
+if metric == 'K':
+    kc = weigh*2.20
+    print(f"Weight in pounds is {kc:.2f}")
+if metric == 'L':
+    lc = weigh/2.20
+    print(f"Weight in kilograms is {lc:.2f}")
