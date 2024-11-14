@@ -4,7 +4,7 @@ weight = float(input("Weight: "))
 
 if metric == 'K':
     kc = weight*2.20
-    print(f"Weight in pounds is {kc:.2f}")
+    print(f"The Weight in pounds is {kc:.2f}")
 if metric == 'L':
     lc = weight/2.20
-    print(f"Weight in kilograms is {lc:.2f}")
+    print(f"The Weight in kilograms is {lc:.2f}")
